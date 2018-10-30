@@ -10,6 +10,7 @@ public class Terningspil {
         String Spiller1 = scan.nextLine();
         String Spiller2 = scan.nextLine();
         System.out.println(Spiller1 + " " + Spiller2);
+        System.out.println(Spiller1 );
     }
 }
 
