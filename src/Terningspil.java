@@ -12,7 +12,7 @@ public class Terningspil {
         String Spiller2 = scan.nextLine();
         System.out.println(Spiller1 + " " + Spiller2);
         System.out.println(Spiller1 +" Har så mange point:" + Konto.getPengebeholdning1());
-        System.out.println(Feltliste.felter());
+        System.out.println(Feltliste.felter(c) + " " +Felttekster.Tekster(c));
 
 
 

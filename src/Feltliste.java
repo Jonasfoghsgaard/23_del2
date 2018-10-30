@@ -1,9 +1,8 @@
 public class Feltliste {
-    public static int felter () {
-        int x = Terninger.getSum(Terninger.roll(),Terninger.roll());
+    public static int felter (int n1) {
         int penge = 0;
         String Felttekst;
-        switch (x){
+        switch (n1){
             case 2: penge =penge + 250; Felttekst = "Du er landet på feltet Tower du får 250 penge.";
             break;
             case 3: penge =penge - 100; Felttekst = "Du er landet på feltet crater, du mister 100 penge";
