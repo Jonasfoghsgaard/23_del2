@@ -1,3 +1,10 @@
-hello
+class Main {
 
-Kan du se dette bob?
+    public static void main(String[] args) {
+
+        System.out.println("HEJ");
+
+    }
+
+
+}
