@@ -10,7 +10,7 @@ public class Konto {
         public static int getPengebeholdning2(){
         int startværdi1 = 1000;
         int tilføjpoint1 = 0;
-        int sum1 = startværdi1 + tilføjpoint1;
+        int sum1 = startværdi1 + Feltliste.felter();
         return sum1;
 
 
