@@ -1,4 +1,4 @@
-Public class Spiller {
+public class Spiller {
 }
 
 
