@@ -1,5 +1,6 @@
 import java.util.concurrent.ThreadLocalRandom;
 
+
 public class Terninger {
     public static int getSum(int n1, int n2){ // metoden til at få summen af terningerne.
         int sum = n1+n2;
