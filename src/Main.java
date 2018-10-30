@@ -5,7 +5,8 @@ class Main {
         System.out.println("HEJ");
 
 
-        System.out.println("HEJHEJ");
+        System.out.println("HEJHE");
+
 
     }
 
