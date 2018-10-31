@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Terningspil {
+public class Terningspil {          // Det er her selve spillet vil køre. (Det er den her vi tester.)
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = Terninger.roll();
