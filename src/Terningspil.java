@@ -19,4 +19,4 @@ public class Terningspil {          // Det er her selve spillet vil køre. (Det 
     }
 }
 //Kan i se det nu?
-//test igen
+//test igen.
