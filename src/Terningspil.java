@@ -14,6 +14,6 @@ public class Terningspil {          // Det er her selve spillet vil køre. (Det 
         System.out.println(Spiller1 +" Har så mange point:" + Konto.getPengebeholdning1());
         System.out.println(Feltliste.felter(c) + " " +Felttekster.Tekster(c));
 
-        // bob
+
     }
 }
