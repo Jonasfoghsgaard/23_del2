@@ -1,3 +1,5 @@
+package Game;
+
 public class Feltliste {
     public static int felter (int n1) {         // Har en positiv eller negativ effekt på pengebeholdningen.
         int penge = 0;

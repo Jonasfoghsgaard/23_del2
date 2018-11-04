@@ -1,3 +1,5 @@
+package Game;
+
 public class Konto {
 
     public static int getPengebeholdning1() {       // Dette er pengebeholdningen for spiller 1.

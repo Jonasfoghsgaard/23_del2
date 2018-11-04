@@ -1,3 +1,5 @@
+package Game;
+
 public class Felttekster {
     public static String Tekster (int n1){      // Dette er metoden som udskriver feltteksterne.
         String tekst = null;

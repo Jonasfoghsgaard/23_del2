@@ -1,3 +1,5 @@
+package Game;
+
 import java.util.Scanner;
 
 public class Terningspil {          // Det er her selve spillet vil køre. (Det er den her vi tester.)
