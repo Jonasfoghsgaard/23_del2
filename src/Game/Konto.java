@@ -1,43 +1,45 @@
 package Game;
 
 public class Konto {
-     Feltliste felt = new Feltliste();
-    int startværdi;
-    int beholdning;
-    Konto (){
-        startværdi = 1000;
-        beholdning = startværdi +felt.penge;
+
+    //Opretter en balance variabel, da det skal bruges til spillernes pengebeholdning. Jeg kalder variablen "pengeBeholdning".
+    private int pengeBeholdning;
+
+
+    // Jeg opretter en konstruktør.
+    public Konto(){
+
+        pengeBeholdning = 1000;
 
     }
 
+    //Her opretter jeg en metode getPengeBeholdning, så hver gang jeg kalder denne metode, vil den returnere spillerens beholdning.
+    public int getPengeBeholdning(){
 
+        return pengeBeholdning;
 
-
-
-
-
-
-    /*
-
-    public static int getPengebeholdning1() {       // Dette er pengebeholdningen for spiller 1.
-        int startværdi = 1000;
-        int sum = startværdi;
-        return sum;
     }
 
-        public static int getPengebeholdning2(){    // Dette er pengebeholdningen for spiller 2.
-        int startværdi1 = 1000;
-        int tilføjpenge1 = 0;
-        int sum1 = startværdi1 + tilføjpenge1;
-        return sum1;
+    //Her opretter jeg en metode, hævePengeFraBeholdning, hvor der kan hæves, hvis der er penge på kontoen, derfor er denne metode en boolean.
+    public boolean hævePengeFraBeholdning(int penge){
 
-        */
+        if (pengeBeholdning - penge >= 0){
 
+            pengeBeholdning -= penge;
+            return true;
 
+        }
 
+        return false;
 
-    public static int tilføjpenge (int n1){
-       return n1;
+    }
+
+    //Her opretter jeg en lignende metode som hævePengeFraBeholdning, hvor jeg tværtimod kalder denne for indskydPengeTilBeholdning.
+    public boolean indskydPengeTilBeholdning(int penge){
+
+        pengeBeholdning += penge;
+        return true;
+
     }
 }
 
