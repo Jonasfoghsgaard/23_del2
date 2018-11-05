@@ -2,7 +2,7 @@ package Game;
 
 public class Terning {
 
-    // Opretter to variabler der skal bruges til denne klasse.
+    // Opretter to variabler der skal bruges til denne klasse og det er netop det der derfinere en terning.
     private int sider;
     private int øjne;
 
