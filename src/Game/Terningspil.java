@@ -1,33 +1,51 @@
 package Game;
-public class Terningspil { // Det er her selve spillet vil køre. (Det er den her vi tester.)
+
+import java.util.Scanner;
+
+// Det er her selve spillet vil køre. (Det er den her vi tester.)
+public class Terningspil {
+
+    // Da denne klasse skal indeholde de objekter fra de andre klasser, bliver vi nødt til at "kalde" på dem.
+    private Spiller[] spiller;
+    private BenytTerninger benytTerninger;
+    private Felter[] felter;
+
+
+    public Terningspil(){
+
+        felter = new Felter[11];
+        felter[0] = new Felter("Tower",250,"Velkommen til feltet Tower, her er vi gavmilde og søde så du får 250 penge.",false);
+        felter[1] = new Felter("Crater",-100,"Du kører fuldstændig galt og lander i feltet Crater. du mister 100 penge",false);
+        felter[2] = new Felter("Palace gates",100,"Velkommen til himlen, til paradis, til feltet Palace gates, du får 100 penge",false);
+        felter[3] = new Felter("Cold desert",-20,"Vi håber virkelig du har pakket en vinterjakke, for du er landet på feltet Cold Desert, du mister 20 penge",false);
+        felter[4] = new Felter("Walled city",180,"En væg, to vægge, tre vægge, ja du er landet på feltet Walled City, du får 180 penge",false);
+        felter[5] = new Felter("Monastery",0,"Vi håber du har sagt dine bønner. Velkommen til Monastery, du får 0 penge",false);
+        felter[6] = new Felter("Black cave",-70,"Det er sort, det er mørt, du er bange. Du er i Black cave, du mister 70 penge",false);
+        felter[7] = new Felter("Huts int the mountain",60,"Her skal den gode udsigt nydes. Velkommen til Huts in the mountain, du får 60 penge",false);
+        felter[8] = new Felter("The werewall",-80,"PAS PÅ! Fuldmånen er ude, du er landet på Werewall som stjæler 80 penge men du løber så hurtigt at du må slå igen.",true);
+        felter[9] = new Felter("The pit",-50,"Din bil skal altså have skiftet dæk og det koster. Velkommen i The pit, du mister 50 penge",false);
+        felter[10] = new Felter("Goldmine",650,"Du har fundet guld i bjergene og sælger det for 650, du er rig!",false);
+
+        benytTerninger = new BenytTerninger();
+        spiller = new Spiller[2];
+        Scanner scan = new Scanner(System.in);
+
+        for (int i = 0; i < spiller.length; i++) {
+
+            System.out.println("Hvad er dit navn?");
+            spiller[i] = new Spiller(scan.nextLine());
+            spiller[i].getNavn();
+            spiller[i].getKonto();
+
+        }
+    }
+
 
     public static void main(String[] args) {
 
-        Terninger slag = new Terninger();
-        Feltliste felt = new Feltliste();
-        Konto t1 = new Konto();
-
-        System.out.println(slag.Terning1 + " "+slag.Terning2+" "+slag.antaløjne);
-
-        //String Spiller1 = Spiller.getName();
-        //String Spiller2 = Spiller.getName();
-        //System.out.println(Spiller1 + " " + Spiller2);
-
-        System.out.println(Feltliste.felter(slag.antaløjne) + " " +Felttekster.Tekster(slag.antaløjne));
-
-        System.out.println(felt.penge);
-        System.out.println(t1.startværdi+ " "+felt.penge +" " + t1.beholdning);
-
-
-
-
-
-
-
-        }
-
-
+        Terningspil terningspil = new Terningspil();
 
 
 
     }
+}
