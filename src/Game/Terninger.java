@@ -4,6 +4,18 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 public class Terninger {
+    int antaløjne;
+    int Terning1;
+    int Terning2;
+
+    Terninger (){
+        Terning1 = roll();
+        Terning2 = roll();
+        antaløjne =Terninger.getSum(Terning1  ,Terning2);
+
+    }
+
+
     public static int getSum(int n1, int n2){ // metoden til at få summen af terningerne.
         int sum = n1+n2;
         return sum;

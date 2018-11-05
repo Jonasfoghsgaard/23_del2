@@ -10,7 +10,7 @@ public class Felttekster {
                 break;
             case 4: tekst ="Velkommen til himlen, til paradis, til feltet Palace gates, du får 100 penge";
                 break;
-            case 5: tekst = "VI håber virkelig du har pakket en vinterjakke, for du er landet på feltet Cold Desert, du mister 20 penge";
+            case 5: tekst = "Vi håber virkelig du har pakket en vinterjakke, for du er landet på feltet Cold Desert, du mister 20 penge";
                 break;
             case 6: tekst = "En væg, to vægge, tre vægge, ja du er landet på feltet Walled City, du får 180 penge";
                 break;
