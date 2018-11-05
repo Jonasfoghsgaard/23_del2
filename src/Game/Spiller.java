@@ -35,8 +35,8 @@ public class Spiller {
 
     }
 
-    /*Her bliver vi nødt til at oprette en metode der kan ændre pengene på beholdningen ud frad et felt man lander på. Dette er pga. der er både en positiv -og
-    negativeffekt på pengebeholdningen */
+    /*Her bliver vi nødt til at oprette en metode der kan ændre pengene på beholdningen ud fra et felt man lander på. Dette er pga. der både er en positiv -og
+    negativ effekt på pengebeholdningen */
     public boolean ændringAfKonto(int penge){
         if(penge == 0) {
 
