@@ -12,6 +12,9 @@ public class Spiller {
         return navn;
     }
 
+
+
+
     }
 
 

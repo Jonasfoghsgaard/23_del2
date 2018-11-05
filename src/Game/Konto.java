@@ -1,7 +1,7 @@
 package Game;
 
 public class Konto {
-    Feltliste felt = new Feltliste();
+     Feltliste felt = new Feltliste();
     int startværdi;
     int beholdning;
     Konto (){
