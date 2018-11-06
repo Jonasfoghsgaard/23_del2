@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ab82d8-3a1a-4956-893a-136fab7593e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Game/Terningspil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Terningspil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Terning.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,26 +29,26 @@
         <counts>
           <entry key="form" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="24" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="8787" />
+          <entry key="java" value="8869" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8787" />
+          <entry key="JAVA" value="8869" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -111,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game/Terningspil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="120" selection-start-line="25" selection-start-column="120" selection-end-line="25" selection-end-column="120" />
+            <state relative-caret-position="120">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -129,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game/Terning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -150,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game/Spiller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="584">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -185,11 +185,11 @@
         <option value="$PROJECT_DIR$/src/Game/Konto.java" />
         <option value="$PROJECT_DIR$/src/Game/Terninger.java" />
         <option value="$PROJECT_DIR$/src/Game/Feltliste.java" />
-        <option value="$PROJECT_DIR$/src/Game/Terning.java" />
         <option value="$PROJECT_DIR$/src/Game/Felter.java" />
         <option value="$PROJECT_DIR$/src/Game/BenytTerninger.java" />
         <option value="$PROJECT_DIR$/src/Game/Spiller.java" />
         <option value="$PROJECT_DIR$/src/Game/Terningspil.java" />
+        <option value="$PROJECT_DIR$/src/Game/Terning.java" />
       </list>
     </option>
   </component>
@@ -229,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541494831180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541495387901" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -290,7 +290,7 @@
       <workItem from="1541146526356" duration="847000" />
       <workItem from="1541445571977" duration="15487000" />
       <workItem from="1541488505453" duration="1958000" />
-      <workItem from="1541494142160" duration="603000" />
+      <workItem from="1541494142160" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="sdasa">
       <created>1541145628290</created>
@@ -317,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32973000" />
+    <option name="totallyTimeSpent" value="33608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -442,15 +442,17 @@
     <entry file="file://$USER_HOME$/Desktop/DTU &amp; CBS/CDIO2-master/src/spil/DiceCup.java" />
     <entry file="file://$USER_HOME$/Desktop/DTU &amp; CBS/CDIO2-master/src/spil/Account.java" />
     <entry file="file://$USER_HOME$/Desktop/DTU &amp; CBS/CDIO2-master/src/spil/Field.java" />
-    <entry file="file://$USER_HOME$/Desktop/DTU &amp; CBS/CDIO2-master/src/spil/Game.java" />
     <entry file="file://$PROJECT_DIR$/src/Game/Felttekster.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI.jar.form" />
     <entry file="file://$PROJECT_DIR$/src/doc/gui_main/GUI.html" />
-    <entry file="file://$PROJECT_DIR$/src/Game/Terning.java">
+    <entry file="file://$USER_HOME$/Desktop/DTU &amp; CBS/CDIO2-master/src/spil/Game.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Terningspil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -461,10 +463,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Konto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/Spiller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="584">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -475,17 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/Konto.java">
+    <entry file="file://$PROJECT_DIR$/src/Game/Terning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/Terningspil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="120" selection-start-line="25" selection-start-column="120" selection-end-line="25" selection-end-column="120" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

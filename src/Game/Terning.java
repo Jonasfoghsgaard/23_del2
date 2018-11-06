@@ -1,5 +1,8 @@
 package Game;
 
+
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Terning {
 
     // Opretter to variabler der skal bruges til denne klasse og det er netop det der derfinere en terning.
@@ -9,7 +12,7 @@ public class Terning {
     //Her har jeg en metode rul, der ruller med de antal øjne der nu er på terningen, i dettet tilfælde er det en tilfældig værdi mellem 1 og 6.
     public void rul(){
 
-        øjne = (int)(sider * Math.random())+1;
+        øjne = ThreadLocalRandom.current().nextInt(1,6+1);
 
     }
 
