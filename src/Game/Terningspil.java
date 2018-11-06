@@ -12,6 +12,7 @@ public class Terningspil {
     //Da vi ovenover oprettede et array der hedder felter, skal vi forneden hente de antal felter, det vi nu skal bruge,
     // og sætte de enkelte navne, belønninger, beskrivelse af feltet og om det er sandt/falsk om en ekstra tur.
 
+
     public Terningspil(){
 
         felter = new Felter[11];
