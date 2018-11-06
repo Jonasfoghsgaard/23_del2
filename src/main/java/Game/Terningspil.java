@@ -6,7 +6,7 @@ public class Terningspil {
     // Da denne klasse skal indeholde de objekter fra de andre klasser, bliver vi nødt til at "kalde" på dem.
     private Felter[] felter;
     private Spiller[] spiller;
-    private BenytTerninger benytTerninger;
+    private Raflebæger raflebæger;
 
 
     //Da vi ovenover oprettede et array der hedder felter, skal vi forneden hente de antal felter, det vi nu skal bruge,
@@ -27,7 +27,7 @@ public class Terningspil {
         felter[10] = new Felter("Goldmine",650,"Du har fundet guld i bjergene og sælger det for 650, du er rig!",false);
 
         spiller = new Spiller[2];
-        benytTerninger = new BenytTerninger();
+        raflebæger = new Raflebæger();
 
         for (int i = 0; i < spiller.length; i++){
 
