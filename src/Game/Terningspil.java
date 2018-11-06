@@ -1,7 +1,5 @@
 package Game;
 
-import java.util.Scanner;
-
 // Det er her selve spillet vil køre. (Det er den her vi tester.)
 public class Terningspil {
 
@@ -26,26 +24,6 @@ public class Terningspil {
         felter[9] = new Felter("The pit",-50,"Din bil skal altså have skiftet dæk og det koster. Velkommen i The pit, du mister 50 penge",false);
         felter[10] = new Felter("Goldmine",650,"Du har fundet guld i bjergene og sælger det for 650, du er rig!",false);
 
-        benytTerninger = new BenytTerninger();
-        spiller = new Spiller[2];
-        Scanner scan = new Scanner(System.in);
-
-        for (int i = 0; i < spiller.length; i++) {
-
-            System.out.println("Hvad er dit navn?");
-            spiller[i] = new Spiller(scan.nextLine());
-            spiller[i].getNavn();
-            spiller[i].getKonto();
 
         }
-    }
-
-
-    public static void main(String[] args) {
-
-        Terningspil terningspil = new Terningspil();
-
-
-
-    }
 }
