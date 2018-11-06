@@ -6,13 +6,7 @@ public class Spiller {
     private String navn;
     private Konto konto;
 
-    /*Denne metode skal vise om spilleren har vundet, hvis der er 3000 penge eller mere på beholdningen, derfor opretter man en boolean -
-        da det skal være sandt, hvis man har 3000 eller mere, så man kan vinde. */
-    public boolean spillerVinder(){
 
-        return this.getKonto() >= 3000;
-
-    }
     //Her opretter jeg en konstruktør, der netop gør, at én spiller har én konto og ét navn.
     public Spiller(String navn){
 
@@ -32,6 +26,14 @@ public class Spiller {
     public int getKonto(){
 
         return konto.getPengeBeholdning();
+
+    }
+
+    /*Denne metode skal vise om spilleren har vundet, hvis der er 3000 penge eller mere på beholdningen, derfor opretter man en boolean -
+            da det skal være sandt, hvis man har 3000 eller mere, så man kan vinde. */
+    public boolean spillerVinder() {
+
+        return this.getKonto() >= 3000;
 
     }
 
