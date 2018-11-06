@@ -1,12 +1,12 @@
 package Game;
 
-public class BenytTerninger {
+public class Raflebæger {
 
     //Her oprettes der array, der der skal være to terninger.
     private Terning[] terninger;
 
     //Her benytter vi to terninger, da vi lige har oprettet vores array objekt, men her tildeler vi siderne.
-    public BenytTerninger(){
+    public Raflebæger(){
 
         terninger = new Terning[]{new Terning(6), new Terning(6)};
 
