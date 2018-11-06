@@ -4,10 +4,11 @@ package Game;
 public class Terningspil {
 
     // Da denne klasse skal indeholde de objekter fra de andre klasser, bliver vi nødt til at "kalde" på dem.
-    private Spiller[] spiller;
-    private BenytTerninger benytTerninger;
     private Felter[] felter;
 
+
+    //Da vi ovenover oprettede et array der hedder felter, skal vi forneden hente de antal felter, det vi nu skal bruge,
+    // og sætte de enkelte navne, belønninger, beskrivelse af feltet og om det er sandt/falsk om en ekstra tur.
 
     public Terningspil(){
 
