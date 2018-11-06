@@ -11,8 +11,6 @@ public class Terningspil {
 
     //Da vi ovenover oprettede et array der hedder felter, skal vi forneden hente de antal felter, det vi nu skal bruge,
     // og sætte de enkelte navne, belønninger, beskrivelse af feltet og om det er sandt/falsk om en ekstra tur.
-
-
     public Terningspil(){
 
         felter = new Felter[11];
@@ -28,5 +26,14 @@ public class Terningspil {
         felter[9] = new Felter("The pit",-50,"Din bil skal altså have skiftet dæk og det koster. Velkommen i The pit, du mister 50 penge",false);
         felter[10] = new Felter("Goldmine",650,"Du har fundet guld i bjergene og sælger det for 650, du er rig!",false);
 
+        spiller = new Spiller[2];
+        benytTerninger = new BenytTerninger();
+
+        for (int i = 0; i < spiller.length; i++){
+
+
+
+
+        }
     }
 }
